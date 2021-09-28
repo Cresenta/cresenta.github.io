@@ -1,13 +1,25 @@
-.title {
-    text-align: center;
+body {
+    background-color:rgb(0, 0, 0);
+    color: rgb(196, 196, 196);
 }
 
-.button {
+button {
+    background-color: #129700;
+    color: rgb(255, 255, 0);
+    margin: 5px;
+}
+
+.title {
+    text-align: center;
+    color: yellow;
+}
+
+.banner-button {
     position: absolute;
-    background-color: #4CAF50;
+    background-color: #129700;
     border: none;
     color: rgb(255, 255, 0);
-    padding: 10px 32px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -15,6 +27,10 @@
     margin: 0px 0px;
     cursor: pointer;
     height: 100%;
+}
+
+.center {
+    text-align: center;
 }
 
 #banner-title {
@@ -26,16 +42,17 @@
     font-size: 25px;
     font-family: cursive;
     font-weight: bold;
+    color:black;
 }
 
 #banner {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #DDEEEE;
+    background-color: blueviolet;
     width: 100%;
     height: 50px;
-  }
+}
 
 #content {
     padding-top: 40px;
